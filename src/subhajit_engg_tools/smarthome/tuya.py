@@ -44,7 +44,7 @@ class Tuya:
         if not result["success"]:
             return False, result["msg"], None
 
-        result_dict = {"online": result["result"]["online"], "switch": {}}
+        result_dict = {"online": result["result"]["online"], "switch": {}, "name": result["result"]["name"]}
         for switch in switch_list:
             for i in result["result"]["status"]:
                 if switch == i["code"]:

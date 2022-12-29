@@ -34,3 +34,4 @@ urllib3==1.26.13
 webencodings==0.5.1
 websocket-client==1.4.2
 zipp==3.11.0
+tuya-connector-python==0.1.2

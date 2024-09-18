@@ -4,3 +4,5 @@ This repository is to keep all the connectors and useful tools that can be publi
 Connector Available as of now
 
 1. Postgres
+2. Snowflake
+3. SmartHome(Tuya)

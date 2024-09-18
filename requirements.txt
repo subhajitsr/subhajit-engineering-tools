@@ -41,4 +41,3 @@ scipy==1.11.2
 snowflake-connector-python[pandas]
 google-auth-oauthlib==2.32.0
 google-api-python-client==2.139.0
-pyarrow==6.0.1

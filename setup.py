@@ -1,8 +1,9 @@
 from setuptools import setup
+from version import version
 
 setup(
     name='subhajit_engg_tools',
-    version='0.0.6',
+    version=f'{version}',
     author='Subhajit Maji',
     author_email='subhajitsr@gmail.com',
     description='Useful data engineering tools',

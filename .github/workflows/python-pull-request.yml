@@ -45,6 +45,18 @@ jobs:
         run: |
           pip install setuptools wheel twine
 
+      - name: Increment Version
+        run: |
+          python version_handler.py
+
+      - name: Commit and push version bump
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add version.py  # Adjust if you use setup.cfg
+          git commit -m "Bump version to new release"
+          git push
+
       - name: Build package
         run: |
           python setup.py sdist bdist_wheel

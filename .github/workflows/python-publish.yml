@@ -46,11 +46,7 @@ jobs:
 
       - name: Setup Wheel Twine
         run: |
-          pip install setuptools wheel twine bumpversion
-
-      - name: Bump version
-        run: |
-          bumpversion minor
+          pip install setuptools wheel twine
 
       - name: Build package
         run: |

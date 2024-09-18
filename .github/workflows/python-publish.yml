@@ -18,9 +18,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: '3.8'
+          
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libboost-dev libboost-filesystem-dev libboost-system-dev \
+          libboost-thread-dev rapidjson-dev libsnappy-dev zlib1g-dev \
+          liblz4-dev libzstd-dev
 
-      - name: Install dependencies
+      - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt

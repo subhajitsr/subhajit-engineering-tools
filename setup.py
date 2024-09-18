@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='subhajit_engg_tools',
-    version='0.0.5',
+    version='0.0.6',
     author='Subhajit Maji',
     author_email='subhajitsr@gmail.com',
     description='Useful data engineering tools',

@@ -24,12 +24,5 @@ pip install subhajit-engineering-tools
 ## Usage 🛠️
 
 ```python
-from your_package_name import YourClass
-
-# Initialize the class
-instance = YourClass()
-
-# Use a method
-result = instance.your_method()
-print(result)
+from subhajit_engg_tools.connectors.postgres import Postgres
 ```

@@ -26,3 +26,9 @@ pip install subhajit-engineering-tools
 ```python
 from subhajit_engg_tools.connectors.postgres import Postgres
 ```
+
+## Requirements 📋
+This package requires:
+
+Python 3.7 or higher
+Follow `requirements.txt` for other requirements

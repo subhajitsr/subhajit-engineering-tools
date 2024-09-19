@@ -1,4 +1,4 @@
-# My Python Package 📦
+# subhajit-engineering-tools 📦
 
 [![PyPI version](https://badge.fury.io/py/subhajit-engineering-tools.svg)](https://badge.fury.io/py/subhajit-engineering-tools)
 [![Build Status](https://travis-ci.com/subhajitss/subhajit-engineering-tools.svg?branch=main)](https://travis-ci.com/subhajitss/subhajit-engineering-tools)

@@ -60,4 +60,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact 📬
 Author: Subhajit Maji
+
 Email: mailto:subhajitsr@gmail.com

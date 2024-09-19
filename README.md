@@ -30,5 +30,34 @@ from subhajit_engg_tools.connectors.postgres import Postgres
 ## Requirements 📋
 This package requires:
 
-Python 3.7 or higher
+Python 3.7 or higher.
 Follow `requirements.txt` for other requirements
+
+## Development 🛠️
+To contribute or set up the project for development:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/subhajitsr/subhajit-engineering-tools
+```
+2. Navigate to the project folder:
+```bash
+cd subhajit-engineering-tools
+```
+3. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Testing ✅
+We use pytest for running tests. Run the following command to execute the tests:
+```bash
+pytest
+```
+
+## Contributing 🤝
+Contributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or feature requests.
+
+## Contact 📬
+Author: Subhajit Maji
+Email: mailto:subhajitsr@gmail.com

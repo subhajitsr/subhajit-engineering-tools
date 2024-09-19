@@ -30,5 +30,5 @@ from subhajit_engg_tools.connectors.postgres import Postgres
 ## Requirements 📋
 This package requires:
 
-Python 3.7 or higher
+Python 3.7 or higher \n
 Follow `requirements.txt` for other requirements

@@ -19,7 +19,6 @@ def update_version_in_file(file_path: str, new_version: str):
     with open(file_path, 'r') as file:
         content = file.read()
 
-    # Update version in file
     new_content = re.sub(r"version='\d+\.\d+\.\d+'", f"version='{new_version}'", content)
 
     with open(file_path, 'w') as file:
@@ -31,7 +30,6 @@ if __name__ == "__main__":
     version_file = 'version.py'
     version_part = 'minor'
 
-    # Read the current version
     with open(version_file, 'r') as file:
         content = file.read()
     match = re.search(r"version='(\d+\.\d+\.\d+)'", content)

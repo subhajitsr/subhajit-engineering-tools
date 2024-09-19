@@ -62,15 +62,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 Author: Subhajit Maji
 
 Email: mailto:subhajitsr@gmail.com
-
-
-### Key Sections:
-- **Features**: Highlight what your package does.
-- **Installation**: How to install via PyPI.
-- **Usage**: Provide example code snippets.
-- **Development**: Instructions for setting up locally.
-- **Testing**: Explain how to run tests.
-- **Publishing**: Steps for publishing updates to PyPI.
-- **License & Contributing**: Mention the license and how others can contribute.
-
-Let me know if you need specific details tailored!

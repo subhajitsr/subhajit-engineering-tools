@@ -1,9 +1,21 @@
-# subhajit-engineering-tools
-This repository is to keep all the connectors and useful tools that can be published as package to Pypi
+# My Python Package 📦
 
-Connector Available as of now
+[![PyPI version](https://badge.fury.io/py/subhajit-engineering-tools.svg)](https://badge.fury.io/py/subhajit-engineering-tools)
+[![Build Status](https://travis-ci.com/subhajitss/subhajit-engineering-tools.svg?branch=main)](https://travis-ci.com/subhajitss/subhajit-engineering-tools)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-1. Postgres
-2. Snowflake
-3. SmartHome(Tuya)
-4. Youtube
+A Python package for **engineering works**, designed to make ETL easier and more efficient.
+
+## Features 🚀
+
+- **Feature 1**: Database Connectors.
+- **Feature 2**: ETL Tools.
+- **Feature 3**: Smarthome and Youtube data connectors.
+- **Feature 4**: Yet to add. Got an idea? Most welcome to collaborate. Just raise a PR.
+
+## Installation 📦
+
+You can install the package directly from PyPI using pip:
+
+```bash
+pip install subhajit-engineering-tools

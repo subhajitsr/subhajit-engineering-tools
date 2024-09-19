@@ -6,3 +6,4 @@ Connector Available as of now
 1. Postgres
 2. Snowflake
 3. SmartHome(Tuya)
+4. Youtube

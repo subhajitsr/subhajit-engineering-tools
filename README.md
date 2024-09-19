@@ -19,5 +19,17 @@ You can install the package directly from PyPI using pip:
 
 ```bash
 pip install subhajit-engineering-tools
+```
 
-Usage 🛠️
+## Usage 🛠️
+
+```python
+from your_package_name import YourClass
+
+# Initialize the class
+instance = YourClass()
+
+# Use a method
+result = instance.your_method()
+print(result)
+```

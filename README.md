@@ -18,7 +18,7 @@ A Python package for **engineering works**, designed to make ETL easier and more
 You can install the package directly from PyPI using pip:
 
 ```bash
-pip install subhajit-engineering-tools
+pip install subhajit_engg_tools
 ```
 
 ## Usage 🛠️

@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 from version import version
 
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name='subhajit_engg_tools',
     version=version,
@@ -19,6 +22,6 @@ setup(
         'Operating System :: OS Independent',
     ],
     package_dir={'': 'src'},
-    packages=find_packages(),
+    packages=find_packages(where='src'),
     python_requires='>=3.6',
 )

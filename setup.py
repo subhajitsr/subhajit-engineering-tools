@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from version import version
 
 setup(
@@ -19,6 +19,6 @@ setup(
         'Operating System :: OS Independent',
     ],
     package_dir={'': 'src'},
-    packages=['subhajit_engg_tools'],  # Adjust if you have multiple packages or submodules
+    packages=find_packages(),
     python_requires='>=3.6',
 )
